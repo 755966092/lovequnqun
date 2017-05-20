@@ -18,7 +18,7 @@
             -ms-content-zooming: none;
         }
         body
-        {
+        {  
             position: absolute;
             margin: 0px;
             padding: 0px;
@@ -31,22 +31,10 @@
             position: absolute;
             width: 100%;
             height: 100%;
-            /*background: url(./imgs/bg.jpg);*/
         }
     </style>
     <script type="text/javascript" src="res/ge1doot.js"></script>
     <script type="text/javascript">
-        /* 
-        * ==============================================================
-        * CANVAS 3D experiment - 
-        * http://keleyi.com/
-        * Author Gerard Ferrandez - 7 June 2010
-        * ------------------------------------------------------------
-        * Javascript released under the MIT license
-        * http://keleyi.com
-        * Last updated: 12 Dec 2012
-        * ===============================================================
-        */
 
         "use strict";
 
@@ -71,7 +59,7 @@
 	        this.points[3].next = false;
 	    }
 	},
-            // ---- diapo constructor ----
+            // ---- 注释 ----
 	Diapo = function (path, img, structure) {
 	    // ---- create image ----
 	    this.img = new ge1doot.transform3D.Image(
@@ -389,7 +377,10 @@
 </script>
 </head>
 <body>
-
+<audio  autoplay="autoplay" loop="loop">
+  <source src="http://bb5.babyhome.com.tw/UPLOAD7/124804/bbh-loveparadise.mp3" type="audio/mpeg" />
+您的浏览器不支持 audio 标签。
+</audio>
     <canvas id="canvas">你的浏览器不支持HTML5画布技术，请使用支持HTML5的浏览器(http://keleyi.com/a/bjac/g039tue3.htm)</canvas>
 </body>
 </html>
